@@ -46,3 +46,53 @@ h1{
     display: flex;
     gap: 50px;
 }
+
+/*ბლოკი2*/
+
+.first-section {
+    background-image: url(Assets/Images/MainPage.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+.first-section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 50px;
+}
+
+.main-title{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 92px;
+    color: #FFFFFF;
+}
+
+.description{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.button{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #DFAA5B;
+    padding: 25px 133px;
+    border-radius: 10px;
+}
