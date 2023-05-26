@@ -179,3 +179,62 @@ h1{
 .third-section{
     margin-bottom: 122px;
 }
+
+/*ბლოკი5*/
+
+footer{
+    background: #111111;
+    padding: 51px 0 159px ;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-navigation{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.footer-nav-link{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-decoration: none;
+    mix-blend-mode: normal;
+}
+
+.footer-nav-link:hover{
+    color: #DFAA5B
+}
+
+.footer-text a{
+    display: block;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-text p{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.footer-content img{
+    width: 154px;
+    height: 126px;
+    object-fit: cover;
+}
